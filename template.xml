@@ -1,0 +1,59 @@
+<templateTabulato>  
+       <codiceApplicazione>0211</codiceApplicazione>
+       <codiceTabulato>152</codiceTabulato>
+       <dataContabile>$dataContabile</dataContabile>
+       <descrizioneTabulato>Trasferimento Confezioni</descrizioneTabulato>
+       <destinazione>
+             <classe>CC</classe>
+             <coda>CCC</coda>
+             <unl>$unl</unl>
+       </destinazione>
+       <idRichiesta>$idRichiesta</idRichiesta>
+       <provenienza>CASCONF</provenienza>
+       <riga>
+             <ansiCC>0</ansiCC>
+             <testo>BANCA D'ITALIA MOD. 01 - CASCONF</testo>
+       </riga>
+       <riga>
+             <ansiCC>0</ansiCC>
+             <testo>TRASFERIMENTO CONFEZIONI IN PRESENZA</testo>
+       </riga>
+       <riga>
+             <ansiCC>0</ansiCC>
+             <testo>Data contabile: $dataContabile</testo>
+       </riga>
+       <riga>
+             <ansiCC>0</ansiCC>
+             <testo>Trasferimento in presenza da UCV $UCVCedente (utente $utenteCedente) a UCV $UCVRicevente (utente $utenteRicevente)</testo>
+       </riga>
+       <riga>
+             <ansiCC>0</ansiCC>
+             <testo>ELENCO CONFEZIONI TRASFERITE</testo>
+       </riga>
+       <ripetizioneRiga oggetto="confezione">
+             <riga>
+                    <ansiCC>0</ansiCC>
+                    <testo>SSCC: $ssccConfezione - Taglio: $taglioConfezione - Quantità: $quantitaConfezione</testo>
+             </riga>
+			 <rigaAlternativa>
+                <ansiCC>0</ansiCC>
+                <testo>Nessuna confezione</testo>
+          </rigaAlternativa>
+
+       </ripetizioneRiga>
+       <riga>
+             <ansiCC>0</ansiCC>
+             <testo>ELENCO SUPERCONFEZIONI TRASFERITE</testo>
+       </riga>
+       <ripetizioneRiga oggetto="superconfezione">
+             <riga>
+                    <ansiCC>0</ansiCC>
+                    <testo>SSCC: $ssccSuperconfezione - Taglio: $taglioSuperconfezione - Quantità: $quantitaSuperconfezione</testo>
+             </riga>
+			 <rigaAlternativa>
+                <ansiCC>0</ansiCC>
+                <testo>Nessuna superconfezione</testo>
+          </rigaAlternativa>
+
+       </ripetizioneRiga>
+</templateTabulato>

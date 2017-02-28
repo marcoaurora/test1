@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ns1:Tabulato xmlns:ns1="http://www.example.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org file:/media/sf_D_DRIVE/Clienti/BDI/Progetti/Tracciamento/Casconf/TestTemplate/SOA/Schemas/Test.xsd">
+   <ns1:Intestazione>Intestazione20</ns1:Intestazione>
+   <ns1:Riga>
+      <ns1:ansiCC>0</ns1:ansiCC>
+      <ns1:testo>ELENCO CONFEZIONI TRASFERITE</ns1:testo>
+   </ns1:Riga>
+   <ns1:Riga>
+      <ns1:ansiCC/>
+      <ns1:testo>SSCC: SSCC78 Taglio: Taglio79 Quantita: Quantita80</ns1:testo>
+   </ns1:Riga>
+   <ns1:Riga>
+      <ns1:ansiCC/>
+      <ns1:testo>SSCC: SSCC81 Taglio: Taglio82 Quantita: Quantita83</ns1:testo>
+   </ns1:Riga>
+   <ns1:Riga>
+      <ns1:ansiCC/>
+      <ns1:testo>SSCC: SSCC84 Taglio: Taglio85 Quantita: Quantita86</ns1:testo>
+   </ns1:Riga>
+</ns1:Tabulato>

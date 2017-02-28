@@ -1,0 +1,5 @@
+Definizione namespace:
+xmlns:strClass=http://www.oracle.com/XSL/Transform/java/java.lang.String
+
+Esempio di utilizzo:
+<xsl:value-of select="strClass:replaceAll(strClass:replaceAll($descrizione_dvm,'\$receiver',/ns0:trasferisciInPresenzaInput/ns0:ownership-confezioni/ns0:ricevente/ns0:id), '\$amount', $amount)"/>

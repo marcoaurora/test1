@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TabulatoCasconf xmlns="http://www.example.org">
+   <Intestazione>Intestazione20</Intestazione>
+   <ListConfezioni>
+       <Confezione>
+         <SSCC>SSCC:</SSCC>
+         <Taglio>Taglio:</Taglio>
+         <Quantita>Quantita:</Quantita>
+      </Confezione>
+      
+   </ListConfezioni>
+   <ListSuperConfezioni>
+      <Confezione>
+         <SSCC>SSCC:</SSCC>
+         <Taglio>Taglio:</Taglio>
+         <Quantita>Quantita:</Quantita>
+      </Confezione>
+   </ListSuperConfezioni>
+</TabulatoCasconf>
